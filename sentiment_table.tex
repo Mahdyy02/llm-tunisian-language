@@ -1,0 +1,19 @@
+\begin{table*}[h!]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{LLM} & \textbf{Version (Nov 2025)} & \textbf{Accuracy} & \textbf{F1 Weighted} & \textbf{F1 Macro} & \textbf{F1 Positive} & \textbf{F1 Negative} & \textbf{F1 Neutral} & \textbf{Cohen Kappa} & \textbf{Mcc} & \textbf{Precision Positive} & \textbf{Precision Negative} & \textbf{Precision Neutral} \\ \hline
+Claude & Claude Sonnet 4.5 & 0.58 & 0.58 & 0.44 & 0.6 & 0.52 & 0.64 & 0.37 & 0.37 & 0.56 & 0.55 & \textbf{0.65} \\ 
+Deepseek & DeepSeek-R1 & 0.5 & 0.5 & 0.38 & 0.52 & 0.49 & 0.51 & 0.26 & 0.26 & \textbf{0.59} & 0.49 & 0.44 \\ 
+Gemini & Gemini 2.5 Flash & 0.46 & 0.46 & 0.35 & 0.38 & 0.52 & 0.49 & 0.2 & 0.21 & 0.42 & \textbf{0.62} & 0.4 \\ 
+Gpt & GPT-4o Mini & 0.6 & 0.6 & 0.45 & 0.69 & 0.54 & 0.56 & 0.41 & 0.41 & \textbf{0.71} & 0.61 & 0.49 \\ 
+Grok & Grok 3 & 0.51 & 0.47 & 0.36 & 0.35 & 0.58 & 0.51 & 0.26 & 0.32 & \textbf{0.89} & 0.44 & 0.6 \\ 
+Mistral & Mixtral 8×22B & 0.41 & 0.39 & 0.29 & 0.49 & 0.31 & 0.35 & 0.1 & 0.11 & 0.4 & \textbf{0.5} & 0.38 \\ 
+Qwen & Qwen 3 & 0.44 & 0.37 & 0.27 & 0.29 & 0.55 & 0.26 & 0.14 & 0.22 & 0.64 & 0.39 & \textbf{1.0} \\ 
+\hline
+\end{tabular}%
+}
+\caption{Sentiment classification performance of LLMs on the Tunisian dataset, including versions used (as of November 2025). Best values per row highlighted in bold.}
+\label{tab:task3_results}
+\end{table*}

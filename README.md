@@ -91,7 +91,7 @@ Notes on tasks folders:
 
 ## Contributing
 
-If you'd like to contribute to this project, open an issue or submit a pull request or contact me through my email *mohamed.mahdi@etudiant-enit.utm.tn*. Helpful additions:
+If you'd like to contribute to this project, open an issue or submit a pull request or contact me through my email *mohamed.mahdi@etudiant-enit.utm.tn*.
 
 ## License
 

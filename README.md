@@ -91,11 +91,7 @@ Notes on tasks folders:
 
 ## Contributing
 
-If you'd like to add more evaluation metrics, tests, or continuous integration, open an issue or submit a pull request. Helpful additions:
-
-- `requirements.txt` to lock dependencies
-- small unit tests for `tunizi_to_tn_ar_similarity.py`
-- convenience CLI wrappers around `dataset.py` for per-task execution
+If you'd like to contribute to this project, open an issue or submit a pull request or contact me through my email *mohamed.mahdi@etudiant-enit.utm.tn*. Helpful additions:
 
 ## License
 

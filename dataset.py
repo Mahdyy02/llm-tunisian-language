@@ -28,7 +28,7 @@ nltk.download('wordnet')
 ###############################################################
 
 # Path to the folder containing AI outputs
-task1_folder = Path(r"C:\Users\ASUS TUF\Desktop\Work\TUNIZI\task 1")
+task1_folder = Path(r"task 1")
 
 # Assuming you already have your functions cer(), levenshtein_distance(), lcs_similarity() defined
 # and your ground truth dataframe df with column "tunisian_arabic"
@@ -79,7 +79,7 @@ print("Results saved to task1_metrics.csv")
 ########################## TASK 2 ##############################
 ################################################################
 
-task2_folder = Path(r"C:\Users\ASUS TUF\Desktop\Work\TUNIZI\task 2")
+task2_folder = Path(r"task 2")
 
 results = []
 
@@ -141,7 +141,7 @@ print("Results saved to task2_translation_metrics.csv")
 ######################### TASK 3 ##############################
 ################################################################
 
-task3_folder = Path(r"C:\Users\ASUS TUF\Desktop\Work\TUNIZI\task 3")
+task3_folder = Path(r"task 3")
 
 # Ground truth sentiment labels
 # Assuming your CSV has a column like "sentiment" or "label"
@@ -258,3 +258,4 @@ print(f"\n{'='*60}")
 print("Results saved to task3_classification_metrics.csv")
 
 print(f"{'='*60}")
+

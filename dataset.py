@@ -76,10 +76,6 @@ results_df.to_csv(task1_folder / "task1_metrics.csv", index=False)
 print("Results saved to task1_metrics.csv")
 
 ################################################################
-########################## TASK 1 ##############################
-################################################################
-
-################################################################
 ########################## TASK 2 ##############################
 ################################################################
 
@@ -260,4 +256,5 @@ results_df = pd.DataFrame(results)
 results_df.to_csv(task3_folder / "task3_classification_metrics.csv", index=False)
 print(f"\n{'='*60}")
 print("Results saved to task3_classification_metrics.csv")
+
 print(f"{'='*60}")

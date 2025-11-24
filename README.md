@@ -1,5 +1,7 @@
 # Tunisian Arabic LLM Evaluation (TUNIZI)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.16683-b31b1b.svg)](https://arxiv.org/abs/2511.16683)
+
 This repository contains scripts, datasets, and helper code used to evaluate several large language models (LLMs) on tasks involving Tunisian Arabic: transliteration/normalization evaluation, translation similarity, and sentiment classification. The project collects model outputs (stored in the `task 1/`, `task 2/`, and `task 3/` folders), computes standard metrics, and exports results as CSV and LaTeX tables.
 
 ## Repository layout
